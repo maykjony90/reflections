@@ -1,0 +1,48 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+<strong>Question:</strong> <p>How could having easy access to the entire history of a file make you a more efficient programmer in the long term?</p>
+
+<p>First of all, what a programmer does is create files to be able to interact with machines. This interaction is done by a special lenguage called 'machine lenguage'. In history, information is transmitted by lenguages and the most effective and long-life information transmition is done by scripts. Next generations get these scripts and decode the signs appear on them. So, information is a procces of encoding and decoding. The encoded information is sent by some sender via some method and the reciever takes it and decodes it. Same method is applied in human-machine interaction. Humans send a decoded information in some lenguage that the machine can understand, and the machine takes it, decodes it, interprets and either do some opperation or sends a encoded information to the human, in same cases both. So the communication is done. Humans use an organic lenguages which have rules that not recceseraly applied most of the time, and even so the communication is done. But with machines more restricted lenguages and not that flexible as it is with human's are used. The reason behind that restriction is machine's incapablity of interpret the message. Machine's are some dumb tools that only act when it is said so. Since machines are lack of interpretation skill we simply can not interact with them as we do intelligent creaters. So strict rules in encoding messages have to be applied.</p>
+
+<p>Even though we can program them to react when some certain conditions are occured we can not consider every possible situation they may encounter. As a human can store our past experiences via different methods. Even we make these experiences avaliable for machines they will throw an error when they face with a new situation. This is the key point of being an human. we can design and apply new methods by using our past experiences, so the pottential we carry for probabilities is actually more than the information and experience we have. This is the most crucial skill that made possible the current devolopment.</p>
+
+<p>which one is better scientifally i don't have any idea but in some cases us the best method that fits you. Because health is a personal concept and each individual should be able to communicate with it. So, i think my old keyboard was way better and usefl than the current one. But i should consider ohter options. For example, maybe my hands' possition is not correct. By changing it i could get a more comfortable way of writing. this is important, if i don't want to face with some medical issues in future caused by staying at the wrong position for a long time. Let's face it. I am lazy dog. trying different angles may help me to figure out which one is the best possition. I should consider the different angles my hand gets while typing and anylising those different possitions i can find out which one is the best. Then employ it. Imagine that you are playing piano. What is the main problem a pianist encounters. I think the elbows should be at 90 degrees. it seems as if it is the natural position. Because when playin gdrums i used to apply ssame method.</p>
+
+<hr>
+
+<strong>Question:</strong> <p>Why do you think sime version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?</p>
+
+<strong>Answer:</strong>
+<p>In computer science, we are genarally working with bunch files in the mean time. Because most modern programs has multiple files that run together by toking each other. So, when a change is made it should be better labeling all the file as they are related to each other.</p>
+
+<p>In version controls, like Google Docs, you can only save the file you've been working. So, it is not very suitable for programming sort of works. </p>
+
+<hr>
+
+Question: How can you use the commands git log and git diff to view the history of files?
+
+<p>Answer: By using <i>git log</i> I can see when I made a change and also i can see a mesage related to that change. It helps me to find a specific version of file I may need in the future. Also I can go back and see what does the file look like before some kind of changes has been made. The second command, <i>git diff</i>, I can use it see difference between two versions, so that I can see what kind of specific changes has been made. It is very useful; because, instead of comparing two different versions of files, I can simply see the deleted and added parts without spending too much time.</p>
+
+<strong>Question:</strong> <p>How might using version control make you more confident to make changes that could break something?</p>
+
+<strong>Answer:</strong><p> Well, right now I know how to go and check out the different versions of my code by using <i>git checkout [ID]</i> command. It's a very powerful tool and the most distinguished specification of the Git.</p>
+<p>Simply by addressing to a version, I can make bug fixes, searching for a snippet; or making changes without effecting the actual file. It is simply amazing. I would like to thank you to <i>Lin Tor</i> for creating this platform. This guy is a very weird though, but actually producing great stuff!</p>
+
+<strong>Question: </strong><p>Now that you have your workspace set up, what do you want to try using Git for?</p>
+
+<strong>Answer: </strong><p>Well, i haven't chaged the default style but I think I did the rest of the configurations. BUT I AM NOT SURE.</p>
+<p>I started to learn how to use Git to keep my projects on a version control system. Because personal computers are very vulnerable and also very fragile. I don't want to lose all my works when somethings happened to my local storage or my lap-top. This is whay I think Git is a very useful tool that every programer should use. now as we walk through the Lesson 2, thing's are getting though. It's time to do some cool stuff!</p>
+
+<strong>Question: </strong><p>What happens when you initialize a repository? Why do you need to do it?</p>
+<strong>Answer: </strong><p>When I initiliaze a repository first thing happens is a repository called <i>.git</i> is created. This repository exists for storing all my commits. It means when make a change and I commited to it, it is stored as a version of my my project. When I make changes to it and commit again, the old one is stored and whenever a need is emerged and I need to go back and check something, simpy by checking out to old version I can do it. So how it would help me storing old versions. Well, when I changed something in my project and a bug or a disfunction occurs I can back or simply checking the differences between two files I can figure out what might go wrong.</p>
+
+<strong>Question: </strong><p>How is the staging area different from the working directory and the repository? What value do you think it offers?</p>
+
+<strong>Answer: </strong><p>Staging area is like limbo. It is between git repository and local repository. When you add a file in staging area with <code>git add [filename]</code> you basically take the file(s) to a waiting area. Once you done with changing files and ready to commit you can create a new version.</p>
+
+</body>
+</html>
