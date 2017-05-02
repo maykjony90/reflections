@@ -54,11 +54,11 @@ change?</p>
 <strong>Question: </strong><p>What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?</p>
 
-<strong>Answer: </strong><p>Branches are one of the most useful things in Git. It helps you to store different versions of a project so that you can go back and check or make changes on it. Storing all different versions of a project, in some cases your project may contain a lot of files and folders, will be painful. especially when there are another people working on the same project. By simply using branches, you create your own copy that you can make changes to it. And also you can compare it with other versions. Absolutely useful.</p>
+<strong>Answer: </strong><p>Branches are one of the most useful things in Git. Without go forth and back eveytime or commit the current version before making changes sometimes isn't so intiutive. So, using branches, I can make a copy of my current project and make changes to it; it could be bug fixing or adding different lenguage of the project, or maybe some other experimental things. Simply by jumping from one branch to another I can make different versions of the project and keep them in one commit!?</p>
 
 <strong>Question: </strong><p>How do the diagrams help you visualize the branch structure?</p>
 
-<strong>Answer: </strong><p>As Git and GitHub may seem little confusing when you first start to use it, making diagrams on which command or piece belong to which, you can visually see the relation between these pieces and understand the structure of the Git more intitutivelly and deeply.</p>
+<strong>Answer: </strong><p>As Git and GitHub may seem little confusing when you first start to use it, making diagrams on which command or piece belong to which, you can visually see the relation between these nodes and understand the structure of the Git more intitutively and deeply.</p>
 
 <strong>Question: </strong><p>What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?</p>
