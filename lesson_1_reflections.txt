@@ -60,9 +60,8 @@ organized? How would branches help?</p>
 
 <strong>Answer: </strong><p>As Git and GitHub may seem little confusing when you first start to use it, making diagrams on which command or piece belong to which, you can visually see the relation between these nodes and understand the structure of the Git more intitutively and deeply.</p>
 
-<strong>Question: </strong><p>What is the result of merging two branches together? Why do we represent it in
-the diagram the way we do?</p>
-<strong>Answer: </strong><p></p>
+<strong>Question: </strong><p>What is the result of merging two branches together? Why do we represent it in the diagram the way we do?</p>
+<strong>Answer: </strong><p>The result of merging two files is collect them together in a one commit. And in the <i>git log</i> we can see the history of both branches. When merging two or more brnaches the thing we should pay attention is the tip of the branch. So, we should checkout to the branch which will be the tip. For example: <i>git merge master coins</i>. In this example we merge coins into to the master. After merging, a good practice is deleting the branch -with another word, the label. The commits made won't be effected by this procedure. Only the label of branch will be deleted. The commits will be reachable by their IDs. After merging branches, sometimes it could be hard to figure out which one is the parent of the branch. In this case by using <i>git show ID</i> we can see the changes that were introduced by a commit compared to its parent.</p>
 
 <strong>Question: </strong><p>What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?</p>
