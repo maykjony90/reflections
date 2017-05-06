@@ -65,7 +65,7 @@ organized? How would branches help?</p>
 
 <strong>Question: </strong><p>What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
 manually?</p>
-<strong>Answer: </strong><p></p>
+<strong>Answer: </strong><p>The pros of automatic merging is, first of all, we don't need to check each changes in the file, git does it for us. Second great thing is Git can determine which file lines should gone and which lines should stay. And whenever Git is unabale to determine automatically it raise a conflict and wait us to resolve it. Also Git shows which lines caused that conflict and shows what is the ancestor of those lines. So, auto merging is a simple but great time saving tool.</p>
 
 <p>there is some change in this line</p>
 
