@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<strong>Question: </strong><p>What happens when you initialize a repository? Why do you need to do it?</p>
+<strong>Answer: </strong><p>When I initiliaze a repository first thing happens is a repository called <i>.git</i> is created. This repository exists for storing all my commits. It means when make a change and I commited to it, it is stored as a version of my my project. When I make changes to it and commit again, the old one is stored and whenever a need is emerged and I need to go back and check something, simpy by checking out to old version I can do it. So how it would help me storing old versions. Well, when I changed something in my project and a bug or a disfunction occurs I can back or simply checking the differences between two files I can figure out what might go wrong.</p>
+
+<hr>
+
+<strong>Question: </strong><p>How is the staging area different from the working directory and the repository? What value do you think it offers?</p>
+
+<strong>Answer: </strong><p>Staging area is like limbo. It is between git repository and local repository. When you add a file in staging area with <code>git add [filename]</code> you basically take the file(s) to a waiting area. Once you done with changing files and ready to commit you can create a new version.</p>
+
+<hr>
+
+<strong>Question: </strong><p>How can you use the staging area to make sure you have one commit per logical
+change?</p>
+
+<strong>Answer: </strong><p>After making some changes you can put one or more files to staging area to store them there temporarily. If you continue changing the files on staging area then you can simply delete the old ones that are waiting in staging area and add new versions. If you don't change anything, then you go and commit the changes. Long story short, staging area is where you can keep your files without effecting or saving them to GitHub.</p>
+
+<hr>
+
+<strong>Question: </strong><p>What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?</p>
+
+<strong>Answer: </strong><p>Branches are one of the most useful things in Git. Without go forth and back eveytime or commit the current version before making changes sometimes isn't so intiutive. So, using branches, I can make a copy of my current project and make changes to it; it could be bug fixing or adding different lenguage of the project, or maybe some other experimental things. Simply by jumping from one branch to another I can make different versions of the project and keep them in one commit!?</p>
+
+<hr>
+
+<strong>Question: </strong><p>How do the diagrams help you visualize the branch structure?</p>
+
+<strong>Answer: </strong><p>As Git and GitHub may seem little confusing when you first start to use it, making diagrams on which command or piece belong to which, you can visually see the relation between these nodes and understand the structure of the Git more intitutively and deeply.</p>
+
+<strong>Question: </strong><p>What is the result of merging two branches together? Why do we represent it in the diagram the way we do?</p>
+<strong>Answer: </strong><p>The result of merging two files is collect them together in a one commit. And in the <i>git log</i> we can see the history of both branches. When merging two or more brnaches the thing we should pay attention is the tip of the branch. So, we should checkout to the branch which will be the tip. For example: <i>git merge master coins</i>. In this example we merge coins into to the master. After merging, a good practice is deleting the branch -with another word, the label. The commits made won't be effected by this procedure. Only the label of branch will be deleted. The commits will be reachable by their IDs. After merging branches, sometimes it could be hard to figure out which one is the parent of the branch. In this case by using <i>git show ID</i> we can see the changes that were introduced by a commit compared to its parent.</p>
+
+<hr>
+
+<strong>Question: </strong><p>What are the pros and cons of Gitâ€™s automatic merging vs. always doing merges
+manually?</p>
+<strong>Answer: </strong><p>The pros of automatic merging is, first of all, we don't need to check each changes in the file, git does it for us. Second great thing is Git can determine which file lines should gone and which lines should stay. And whenever Git is unabale to determine automatically it raise a conflict and wait us to resolve it. Also Git shows which lines caused that conflict and shows what is the ancestor of those lines. So, auto merging is a simple but great time saving tool.</p>
+
+<strong>Commands:</strong>
+
+<pre><code>git add  |    Add a file to the staging area
+git commit  |    Commit the files from the staging area to the repository
+git status  |    Show which files are in the staging area, and which files from the working directory are not part of the repository
+git diff  |    Git diff without arguments is comparing the working directory with the staging area
+git diff --staged  |    Compare the staging area with the repository
+git reset --hard  |    Undo all changes! There is no rollback for this, so be carefull!
+git checkout master  |    Restore the "Head" to the latest check-in (this will be part of a later lesson/module)
+git log --graph --oneline &lt;branch1&gt; &lt;branch2&gt;  |    Show a visual representation of the commit history within different branches
+git checkout -b new_branch_name  |    Creates a new branch and do a checkout on this branch in one call instead of git branch new_branch_name and git checkout new_branch_name
+git merge branch1 branch2  |    Merge two branches, branch2 get merged into branch1
+git branch -d name  |    Remove the branch with the specified name
+git show commitId  |    Show the changes made in this commit compared to the previous version. This is working even after merging.</code></pre>
+
+</body>
+</html>
